@@ -26,17 +26,22 @@ namespace Doviz
                 case "1":
                     gold.GoldCalculation();
                     goto Key;
-                break;
+                
 
                 case "2":
                     currency.CurrencyCalculation();
                     goto Key;
-                break;
+                
 
                 case "3":
                     System.Console.WriteLine("Thank you for using our service!");
                     Console.ReadKey();
                 break;
+
+                default:    
+                    System.Console.WriteLine("you have defaulted!");
+                    goto Key;
+                
                 
             }
         }
