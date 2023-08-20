@@ -13,7 +13,7 @@ namespace Doviz.Classes
             //currecy => gold 
             System.Console.WriteLine("select your currency:");
             System.Console.WriteLine(" USD / EURO / WON / SUM");
-            int Gold, currecy;
+            decimal Gold, currecy;
             string choose = Console.ReadLine();
             switch (choose)
             {
@@ -22,7 +22,7 @@ namespace Doviz.Classes
                     currecy = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
                     Gold = currecy / 63;
-                    System.Console.WriteLine("your gold: " + Gold + " gramm or " + Gold/1000 + " kg");
+                    System.Console.WriteLine($"your gold: {Gold}  gramm or  {Gold/1000} kg");
                 break;
 
                 case "EURO":
@@ -30,7 +30,7 @@ namespace Doviz.Classes
                     currecy = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
                     Gold = currecy / 58;
-                    System.Console.WriteLine("your gold: " + Gold + " gramm or " + Gold/1000 + " kg");
+                    System.Console.WriteLine($"your gold: {Gold}  gramm or  {Gold/1000} kg");
                 break;
 
                 case "WON":
@@ -38,7 +38,7 @@ namespace Doviz.Classes
                     currecy = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
                     Gold = currecy / 84819;
-                    System.Console.WriteLine("your gold: " + Gold + " gramm or " + Gold/1000 + " kg");
+                    System.Console.WriteLine($"your gold: {Gold}  gramm or  {Gold/1000} kg");
                 break;
 
                 case "SUM":
@@ -46,7 +46,7 @@ namespace Doviz.Classes
                     currecy = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
                     Gold = currecy / 762400;
-                    System.Console.WriteLine("your gold: " + Gold + " gramm or " + Gold/1000 + " kg");
+                    System.Console.WriteLine($"your gold: {Gold}  gramm or  {Gold/1000} kg");
 
                 break;
             }
