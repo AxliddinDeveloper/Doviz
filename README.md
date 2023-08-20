@@ -1,7 +1,7 @@
 # DOVIZ.CLONE
 this program represents a simple currency converter program that allows the user to convert between gold and different currencies.
 
-![Alt text](./Assets/images.jpeg)
+![photo](./Assets/images.jpeg)
 ***
 The real Doviz project is [here](https://github.com/JohnnySenior/Doviz)
 
