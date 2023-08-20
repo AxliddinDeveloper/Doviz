@@ -2,6 +2,8 @@
 this program represents a simple currency converter program that allows the user to convert between gold and different currencies.
 
 ![Alt text](./Assets/images.jpeg)
+***
+The real Doviz project is [here](https://github.com/JohnnySenior/Doviz)
 
 ***
 Here is the code breakdown and how it works:
@@ -39,3 +41,4 @@ The ```Gold``` class contains the ```GoldCalculation()``` method, which prompts 
 ![gif](./Assets/result%20(1).gif)
 
 [My GitHub](https://github.com/Axliddinjon)
+
