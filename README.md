@@ -6,9 +6,9 @@ this program represents a simple currency converter program that allows the user
 ***
 Here is the code breakdown and how it works:
 
-+ The code starts with the Currency namespace, which contains the ```Program class responsible for running the program.
++ The code starts with the Currency namespace, which contains the ```Program``` class responsible for running the program.
 
-+ An instance of the Currency and Gold classes is created in the Main method of the``` Program class.
++ An instance of the Currency and Gold classes is created in the Main method of the Program class.
 
 + The program then displays a menu with three options: ```"Currency => Gold"```, ```"Gold => Currency"``` and "Exit".
 
