@@ -1,4 +1,4 @@
-# DOVIZ.CLONE
+# DOVIZ
 this program represents a simple currency converter program that allows the user to convert between gold and different currencies.
 
 ![Alt text](./Assets/images.jpeg)
